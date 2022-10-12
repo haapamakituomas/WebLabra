@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Ravintolamme kysely</title>
+        <style>
+            body,html{
+                margin: 0px;
+            }
+            .apina{
+                background-image: url(jipii.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                top: 0px;
+                height: 900px;
+            }
+            .apina2{
+                text-align: center;
+                background-color: rgba(148, 72, 218, 0.45);
+                width: 500px;
+                border-radius: 36px;
+                position: sticky;
+                left: 33%;
+            }
+            label{
+                margin-top: 50px;
+            }
+        </style>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="apina">
+            <div class="apina2">
+                <h2>Lapin ravintolan kysely</h2>
+                <form>
+                    <label for="enimi">Etunimi(Tämä ei ole pakollinen):</label><br>
+                    <input type="text" id="enimi"value><br>
+                    <label for="snimi">Sukunimi(Tämä ei ole pakollinen):</label><br>
+                    <input type="text" id="snimi"value><br><br>
+                    <label for="aika">Milloin kävit ravintolassamme?:</label><br>
+                    <input type="date" id="aika"><br><br>
+                    <label for="oottelu">Kauan jouduit odottaa ruokaasi?:</label><br>
+                    <input type="number" id="oottelu" value><br><br>
+                    <label for="lämpö">Oliko ruoka kylmää?:</label><br>
+                    <label for="kyllä">kyllä oli</label>
+                    <input type="radio" id="kyllä" name="ss" value="kyllä"><br>
+                    <label for="ei">ei ollut</label><br>
+                    <input type="radio" id="aaaaa" name="ss" value="ei"><br><br>
+                    <label for="ulkonäkö">Oliko ulkonäkö miellyttävä?:</label><br>
+                    <label for="kyllä">kyllä</label><br>
+                    <input type="radio" id="kyl" name="dd" value="kyllä"><br>
+                    <label for="ei">ei</label><br>
+                    <input type="radio" id="ei" name="dd" value="ei"><br><br>
+                    <label for="1-5">Mitä pidit ruuastamme?:</label><br>
+                    <label for="5">5</label><br>
+                    <input type="radio" id="5" name="aa" value="5"><br>
+                    <label for="4">4</label><br>
+                    <input type="radio" id="4" name="aa" value="4"><br>
+                    <label for="3">3</label><br>
+                    <input type="radio" id="3" name="aa" value="3"><br>
+                    <label for="2">2</label><br>
+                    <input type="radio" id="2" name="aa" value="2"><br>
+                    <label for="1">1</label><br>
+                    <input type="radio" id="1" name="aa" value="1"><br><br>
+                    <input type="submit" value="submit">
+
+                </form>
+            </div>
+        </div>
+    </body>
